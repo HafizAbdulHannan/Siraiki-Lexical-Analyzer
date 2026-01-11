@@ -1,0 +1,31 @@
+wila wadda() {
+    // 1. Invalid Identifier (Line 2)
+    adad 1value = 5;
+
+    // 2. Unrecognized Token (Line 5)
+    isharia total = 100.5 #;
+
+    // 3. Simple arithmetic aur valid keywords
+    adad x = 10;
+    adad y = x + 20;
+
+    likh << "Result is ";
+    
+    // 4. Invalid Character Error (Line 13)
+    if (x > y) & { 
+        likh << "X is greater";
+    }
+
+    jay (x == 10) {
+        likh << "Condition True";
+    }
+    natan {
+        likh << "Condition False";
+    }
+
+    valval (adad i = 0; i < 5; i = i + 1) {
+        // Valid loop body
+    }
+
+    wapas 0;
+}

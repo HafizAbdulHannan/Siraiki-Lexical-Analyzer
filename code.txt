@@ -1,0 +1,33 @@
+wila wadda() {
+    
+    adad x = 10;
+    adad y = 20;
+    isharia z = 5.5;
+    isharia exp = 1.2E+05;
+
+    akhar grade = 'A';
+    
+    likh << "Program shuru thee wanjho";
+
+    jay (x < y) {
+        likh << "X chhoto aa";
+        x = x + 1;
+    } 
+    natan {
+        likh << "Y chhoto aa";
+    }
+
+    valval (adad i = 0; i < 5; i = i + 1) {
+        likh << i;
+        jay (i == 3) {
+            khal;
+        }
+    }
+
+    adad count = 0;
+    jitna (count < 10) {
+        count = count + 1;
+    }
+
+    wapas 0;
+}
