@@ -65,9 +65,10 @@ gcc lex.yy.c parser.tab.c -o SiraikiCompiler
 # 5. Run the Compiler with Input File
 ./SiraikiCompiler < code.txt
 ```
-on Windows
+##on Windows
 Make sure you have win_flex and win_bison configured in your path, or use MinGW. The commands are similar.
-🧪 Example Code (S++)
+
+##🧪 Example Code (S++):
 ```bash
 wila wadda() {
     adad x = 10;
@@ -83,7 +84,8 @@ wila wadda() {
 }
 ```
 
-👨‍💻 Author
+##👨‍💻 Author:
+
 Hafiz Abdul Hannan
 
 Registration: L1F22BSCS0322
