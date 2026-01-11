@@ -64,3 +64,29 @@ gcc lex.yy.c parser.tab.c -o SiraikiCompiler
 
 # 5. Run the Compiler with Input File
 ./SiraikiCompiler < code.txt
+on Windows
+Make sure you have win_flex and win_bison configured in your path, or use MinGW. The commands are similar.
+🧪 Example Code (S++)
+wila wadda() {
+    adad x = 10;
+    likh << "Program shuru";
+    
+    jay (x < 20) {
+        likh << "X chota hai";
+    } natan {
+        likh << "X wadda hai";
+    }
+
+    wapas 0;
+}
+
+👨‍💻 Author
+Hafiz Abdul Hannan
+
+Registration: L1F22BSCS0322
+
+University: University of Central Punjab (UCP)
+
+Course: Compiler Construction
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+If you find this project interesting, please give it a ⭐ star!
